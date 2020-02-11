@@ -130,10 +130,6 @@ nav {
   margin-bottom: 30px;
 }
 
-.red-icon {
-  background-color: #ff4f4f;
-}
-
 .service-icon {
   height: 80px;
   width: 80px;
@@ -143,6 +139,17 @@ nav {
   border-radius: 10px;
   margin-bottom: 20px;
   border: red solid 2px;
+}
+
+.icon {
+  fill: #ff4f4f;
+}
+.service-icon:hover {
+  background-color: #ff4f4f;
+}
+
+.service-icon:hover > svg .icon {
+  fill: #fff;
 }
 
 .service-title {
